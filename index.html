@@ -23,17 +23,19 @@
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
             </div>
-            <div class="invalid-feedback" id="messsagemErro" style="display: none;"></div>
+            <div class="feedback-invalido" id="messsagemErro" style="display: none;"></div>
 
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
-
-            <div class="button-container">
+            
+            <div class="button-container" id="botaoSortear">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
                     <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
                     Sortear amigo
                 </button>
             </div>
+
+            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+            <img id="trofeu" src="./assets/trofeu.png"></img>
         </section>
     </main>
 
