@@ -79,7 +79,7 @@ function criarLista() {
     //Percorrer o array: Use um loop for para percorrer o array amigos e criar elementos de lista(<li>) para cada nome.
     for (let i = ZERO; i < amigos.length; i++) {
         //Adicionar elementos à lista: Para cada amigo, crie um novo elemento de lista.
-        listaHTML += "<li>" + amigos[i] + "</li>";
+        listaHTML += "<li>" + amigos[i] + '</li>';
     }
 
     listaAmigos.innerHTML  = listaHTML;
