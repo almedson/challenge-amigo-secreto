@@ -1,6 +1,6 @@
 # Challenge do Amigo Secreto
 
-![alt text](imagem.png) 
+![alt text](./assets/imagem.png) 
 
 Este é um jogo de Amigo Secreto, uma brincadeira popular onde amigos trocam presentes de forma anônima. Este aplicativo permite que você sorteie um amigo secreto de uma lista de nomes.
 
